@@ -10,7 +10,7 @@ We only define a simple structure of PointRend function with out any segmentatio
 Build a PointRend block:
 ```python
 from point_rend import PointRend
-#use a random value
+#use random value
 coarse_prediction = torch.rand([32, 3, 128, 128]).cuda()
 fine_grained = torch.rand([32, 128, 128, 128]).cuda()
 
